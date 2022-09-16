@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: rgb(241, 237, 237);
+}
+
+.container {
+  width: 360px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.container h2 {
+  color: rgb(14, 12, 23);
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.4rem 0rem;
+}
+
+.container .pick {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  background: rgb(30, 61, 66);
+  color: #fff;
+  border-radius: 7px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.outputcolor {
+  width: 100%;
+  padding: 10px 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 5px;
+}
+
+.colorValue {
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+  display: block;
+}
+
+.left .right {
+  width: 50%;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 5px;
+}
+.gridColor {
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+}
+
+.copyBtn {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  background: rgb(30, 61, 66);
+  color: #fff;
+  border-radius: 7px;
+  margin: 10px 0px;
+  cursor: pointer;
+  display: none;
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0);
+}
