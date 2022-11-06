@@ -8,11 +8,19 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Color picker"
+    "default_title": "Color picker",
+    "default_icon": {
+      "16": "img.png",
+      "24": "img.png",
+      "32": "img.png"
+    }
   },
   "permissions": ["activeTab", "scripting", "tabs"],
   "options_page": "options.html",
   "icons": {
-    "16": "img.png"
+    "16": "img.png",
+    "128": "img.png",
+    "256": "img.png",
+    "48": "img.png"
   }
 }
